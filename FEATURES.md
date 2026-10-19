@@ -12,3 +12,13 @@ Install them from this repository:
 
     mkdir -p "$HOME/.local/bin"
     install -m 0755 features/daybook-office-os-workspace features/daybook-office-os-plan features/daybook-office-os-check "$HOME/.local/bin/"
+
+## Preinstalled purpose software
+
+The installer adds these three Flathub applications for everyday office work:
+
+1. **KeePassXC** — org.keepassxc.KeePassXC
+2. **VSCodium** — com.vscodium.codium
+3. **GIMP** — org.gimp.GIMP
+
+They are installed from Flathub during setup. The repository contains application IDs and documentation, not third-party binaries; each publisher’s terms and licenses apply.
